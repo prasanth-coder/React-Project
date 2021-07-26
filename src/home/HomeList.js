@@ -14,8 +14,6 @@ export default function HomeList(props) {
                phonen={e.phoneno}
                description={e.description}
                image={e.image}
-               
-               
                />
                )
            })}
