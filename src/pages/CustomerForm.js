@@ -6,7 +6,7 @@ export default function CustomerForm() {
     return (
         <section>
         <h1>Customer Form</h1>
-        <CusForm/>
+        <CusForm />
         </section>
         
    
