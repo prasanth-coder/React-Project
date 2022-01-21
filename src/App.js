@@ -8,7 +8,7 @@ import About from "./pages/About";
 import MainNavigation from "./layout/MainNavigation"
 import { Route,Switch } from "react-router-dom";
 import Layout from "./layout/Layout";
-import serviceProviders from "./pages/serviceProviders";
+import ServiceProviders from "./pages/ServiceProviders";
 
 import "./App.css"
 
@@ -104,7 +104,7 @@ const App = () => {
       <WorkerForm/>
     </Route>
     <Route path="/serviceproviders">
-      <serviceProviders/>
+      <ServiceProviders/>
     </Route>
     <Route path="/about">
       <About/>

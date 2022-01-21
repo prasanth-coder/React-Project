@@ -4,7 +4,7 @@ import Card from '../ui/Card'
 export default function HomeItems(props) {
     return (
         
-        <li className={classes.item}>
+        <ul className={classes.item}>
         <Card>
         <div className={classes.image}>
             <img alt={props.title} 
@@ -19,7 +19,7 @@ export default function HomeItems(props) {
         </div>
         </Card>
        
-        </li>
+        </ul>
         
 
     )
